@@ -45,6 +45,7 @@
     <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
@@ -58,16 +59,21 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Users.sql" />
     <Build Include="dbo\Tables\Posts.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="EmbornasBlogDB.publish.xml" />
-    <None Include="EmbornasBlogDB_1.publish.xml" />
+    <Build Include="StoredProcedures\spUsers_Authenticate.sql" />
+    <Build Include="StoredProcedures\spUsers_Register.sql" />
+    <Build Include="StoredProcedures\spPosts_Insert.sql" />
+    <Build Include="StoredProcedures\spPosts_List.sql" />
+    <Build Include="StoredProcedures\spPosts_Detail.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="EmbornasBlogDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EmbornasBlogDB.publish.xml" />
   </ItemGroup>
 </Project>
