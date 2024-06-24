@@ -10,7 +10,7 @@ namespace BlogTestUI
         static void Main(string[] args)
         {
             SqlData db = GetConnection();
-            Register(db);
+            AddPost(db);
             Console.WriteLine("Press Enter to exit...");
             Console.ReadLine();
         }

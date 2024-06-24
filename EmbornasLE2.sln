@@ -5,9 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EmbornasBlogDB", "EmbornasBlogDB\EmbornasBlogDB.sqlproj", "{0FCB1184-7ADA-41AB-B34D-91569FA21D2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDataLibrary", "BlogDataLibrary\BlogDataLibrary.csproj", "{F639CC7E-3B6F-4C6C-ACFF-5776DE170AA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogDataLibrary", "BlogDataLibrary\BlogDataLibrary.csproj", "{F639CC7E-3B6F-4C6C-ACFF-5776DE170AA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogTestUI", "BlogTestUI\BlogTestUI.csproj", "{D4F5F1DC-390E-4E52-A643-EEB588D78A4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogTestUI", "BlogTestUI\BlogTestUI.csproj", "{D4F5F1DC-390E-4E52-A643-EEB588D78A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogAPI", "BlogAPI\BlogAPI.csproj", "{EB21A324-3652-4631-BFCA-98967CDAAEDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{D4F5F1DC-390E-4E52-A643-EEB588D78A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F5F1DC-390E-4E52-A643-EEB588D78A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F5F1DC-390E-4E52-A643-EEB588D78A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB21A324-3652-4631-BFCA-98967CDAAEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB21A324-3652-4631-BFCA-98967CDAAEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB21A324-3652-4631-BFCA-98967CDAAEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB21A324-3652-4631-BFCA-98967CDAAEDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
