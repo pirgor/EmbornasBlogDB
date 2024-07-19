@@ -16,6 +16,7 @@ namespace BlogDataLibrary.Data
         {
             _db = db;
         }
+
         public UserModel Authenticate(string username, string password)
         {
             UserModel result = _db.LoadData<UserModel, dynamic>("dbo.spUsers_Authenticate",
